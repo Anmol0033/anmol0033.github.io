@@ -1,5 +1,5 @@
 var typed = new Typed(".auto-type",{
-    strings:[' Anmol Kamboj!'],
+    strings:[' Anmol!'],
     typeSpeed: 150,
     // backspeed: 150,
     loop : false
