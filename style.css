@@ -188,8 +188,8 @@
     align-items: center;
 }
 .icon img{
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
     border-radius: 50%;
     border: 2px solid white;
     /* background-color: white; */
@@ -201,6 +201,13 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+.icon p{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 @media screen and (min-width: 200px) and (max-width: 550px){
     .profile{
@@ -241,10 +248,9 @@ footer{
         flex-direction: column;
         /* height: auto; */
     }
-    .icon img{
-        height: 150px;
-        width: 150px;
-        margin-bottom: 2rem;
+    .icon p{
+        padding-top: .5rem;
+        text-align: center;
     }
 }
 @keyframes up {
