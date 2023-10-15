@@ -1,4 +1,4 @@
-let alrt = alert("Open in Laptop For Better Experience..")
+let alrt = alert("For Better Experience Open in Laptop ..")
 
 var typed = new Typed(".auto-type",{
     strings:[' Anmol!'],
